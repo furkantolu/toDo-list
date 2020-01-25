@@ -1,0 +1,188 @@
+body {
+  font: 100% Helvetica Neue, sans-serif;
+  font-weight: 400;
+}
+body nav a {
+  text-decoration: none !important;
+  display: block;
+  color: #8a8a8a !important;
+}
+body nav a :hover {
+  text-decoration: none !important;
+  color: #53b2ff !important;
+}
+body nav .container .nv a i {
+  color: #53b2ff;
+  font-size: 24px;
+}
+body nav .container .nv a i:hover {
+  color: #ee4e43 !important;
+}
+body section .date {
+  padding: 15px;
+  margin-top: 35px;
+}
+body section .date h3 {
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: 600;
+  color: #53b2ff;
+  margin-bottom: 0;
+}
+body section .date h4 {
+  font-family: "Qwigley", cursive;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 5.2em;
+  font-weight: 400;
+  color: #e7d911;
+}
+body section .date h5 {
+  color: #8a8a8a;
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+body section .day-week-month {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+body section .day-week-month ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+}
+body section .day-week-month ul li {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+body section .day-week-month ul li :hover {
+  background-color: #53b2ff;
+  color: #ffffff;
+}
+body section .day-week-month ul li a {
+  display: block;
+  color: #53b2ff;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+  border: 1px solid #53b2ff;
+  border-radius: 50px;
+}
+body section .day-week-month ul li a :hover {
+  color: #ffffff;
+}
+body section .new-task input {
+  margin-bottom: 20px;
+  border: none;
+  background-color: #53b2ff;
+  color: #ffffff;
+  height: 40px;
+  border-radius: 50px;
+  padding-left: 45px;
+}
+body section .new-task input::placeholder {
+  color: #ffffff !important;
+}
+body section .tasks {
+  margin-top: 30px;
+}
+body section .tasks .tasks-title {
+  color: #8a8a8a;
+}
+body section .tasks .tasks-title h4 {
+  font-weight: 400;
+}
+body section .tasks .task-cont {
+  height: 45px;
+  padding: 5px;
+  border-radius: 50px;
+}
+body section .tasks .task-cont span i {
+  color: #ee4e43;
+}
+body section .tasks .task-cont .importance {
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  border-bottom-width: 5px;
+  border-top-width: 5px;
+  border-left: 9px solid #ee4e43;
+  margin-left: 5px;
+}
+body section .tasks .task-cont .time-cls {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+body section .tasks .task-cont .time-cls button {
+  display: flex;
+  align-items: center;
+}
+body section .tasks .task-cont .time-cls button:focus {
+  outline: none;
+}
+body section .tasks .task-cont .time-cls button span {
+  color: #ee4e43;
+  padding: 5px;
+  align-items: center;
+  text-align: center;
+}
+body section .last-tasks {
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+body section .last-tasks .last-tasks-title {
+  color: #8a8a8a;
+}
+body section .last-tasks .last-tasks-title h4 {
+  font-weight: 400;
+}
+body section .last-tasks .last-task-cont {
+  height: 40px;
+  padding: 5px;
+  border-radius: 50px;
+  background-color: #47bd86 !important;
+  color: #ffffff;
+}
+body section .last-tasks .last-task-cont .last-importance {
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  border-bottom-width: 5px;
+  border-top-width: 5px;
+  border-left: 9px solid #ffffff;
+  margin-left: 5px;
+}
+body section .last-tasks .last-task-cont .last-time-cls {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+body section .last-tasks .last-task-cont .last-time-cls button {
+  display: flex;
+  align-items: center;
+}
+body section .last-tasks .last-task-cont .last-time-cls button:focus {
+  outline: none;
+}
+body section .last-tasks .last-task-cont .last-time-cls button span {
+  color: #ffffff;
+  padding: 5px;
+  align-items: center;
+  text-align: center;
+}
+body section .last-tasks .last-task-cont .checkd span {
+  text-decoration: line-through;
+}
+body footer {
+  text-align: center;
+}
+body footer .fixed-bottom {
+  padding: 10px;
+  background-color: #f8f9fa;
+}
+
+/*# sourceMappingURL=custom.css.map */
